@@ -1,0 +1,28 @@
+html {
+font-size: 16px;
+}
+body {
+max-width: 80rem;
+background-image: url("/img/Splash\ Page\ Background.jpg"); 
+}
+header{
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-icon{
+    width: 2.84294rem;
+    height: 3.125rem;
+}
+nav{
+
+}
+main{
+
+}
+footer{
+    width: 90rem;
+    height: 5rem;
+    flex-shrink: 0;
+}
