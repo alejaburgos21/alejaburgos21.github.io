@@ -9,24 +9,28 @@ body {
     background-image: url("/img/Brand-Elements/Splash-Page-Background.jpg"); 
     background-attachment: fixed;  /* Cover the entire viewport */
     background-size: cover;
-    min-height: 100vh;/* Ensure the background covers the full viewport height */
+    min-height: 50rem;/* Ensure the background covers the full viewport height */
 }
 
 header{
     display: grid;
     grid-template-columns: 5% 90% 5%;
     margin: auto;
+    width: 80rem;
+    height: 5rem;
 }
 
 #logo-icon{
     grid-template-columns: 1;
     width: 3rem;
     height: 3rem;
+    margin: 1rem;
 }
 #menu-icon{
     grid-column-start: -2;
     width: 3rem;
     height: 3rem;
+    margin: 1rem;
 }
 
 #menu-item {
@@ -46,17 +50,33 @@ header{
 
 #benzai-ten{
     display: flex;
+    width: 72.6875rem;
+    height: 8.8125rem;
     flex-direction: column;
     justify-content: center;
-    min-height: 55vh;
+    text-align: center;
+    min-height: 55vh;   
 }
-
+/* #benzai-ten img{
+    
+} */
 #project-Namay{
     background-image: url("/img/Proyects/Accessories/Namay/Bolso-Grande-contexto.jpeg"); 
     background-size: cover; /* Cover the entire viewport */
     background-attachment: fixed; 
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
+#project-Namay p{
+    color: var(--page-color, #FFF);
+    font-family: Documenta;
+    font-size: 8rem;
+    font-weight: 400;
+}
+
 #project-namay.active {
     display: block; /* Display the background when it has the "active" class */
 }
@@ -73,10 +93,7 @@ header{
 }
 
 section{;
-    grid-template-rows: 100%;
-    margin: 9.25rem auto;
-    grid-column-gap: 1.5rem;
-    grid-auto-flow: dense;
+
 }
 nav{
 
