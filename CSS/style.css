@@ -1,9 +1,12 @@
 html {
     font-size: 16px;
 }
+
 body {
     background-color: #ffffff;
+    margin: 0; 
 }
+
 .mainpage{
     grid-template-columns:repeat(18,63px);
     background-image: url("/img/Brand-Elements/Splash-Page-Background.jpg"); 
@@ -14,33 +17,45 @@ body {
 
 header{
     display: grid;
-    grid-template-columns: 5% 90% 5%;
     margin: auto;
+    grid-template-columns: 5% 90% 5%;
     width: 80rem;
     height: 5rem;
 }
 
 #logo-icon{
-    grid-template-columns: 1;
+    position: fixed;
+    top: 1rem; 
+    left: 1rem; 
+    z-index: 5;
     width: 3rem;
     height: 3rem;
-    margin: 1rem;
+  
 }
+
 #menu-icon{
-    grid-column-start: -2;
+    position: fixed;
+    top: 1rem; 
+    right: 1rem; 
+    z-index: 5;
     width: 3rem;
     height: 3rem;
-    margin: 1rem;
+  
+}
+
+#menu-icon a{
+    text-decoration: none;
+    font-family: Astrella;
+    color: #BFD9CA;
 }
 
 #menu-item {
     display: none; /* Hidden by default */
     background-color: #ffffff;
-    color: #00001b;
-    padding: 0px;
+    font-size: 1rem;
     top: 100%;
-    left: 0;
-    width: 150px;
+    /*width: 3.125rem;*/
+    width: 7rem; 
 }
 
 #menu-icon:hover #menu-item {
@@ -48,51 +63,101 @@ header{
     flex-direction: row;
 }
 
-#benzai-ten{
-    display: flex;
+#benzai-ten {
+    margin: 10rem auto;
+    text-align: center;
     width: 72.6875rem;
     height: 8.8125rem;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    min-height: 55vh;   
 }
-/* #benzai-ten img{
-    
-} */
+
 #project-Namay{
     background-image: url("/img/Proyects/Accessories/Namay/Bolso-Grande-contexto.jpeg"); 
     background-size: cover; /* Cover the entire viewport */
     background-attachment: fixed; 
-    min-height: 100vh;
+    min-height: 50rem;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
-#project-Namay p{
+
+#project-Namay p a{
     color: var(--page-color, #FFF);
     font-family: Documenta;
     font-size: 8rem;
-    font-weight: 400;
+    text-decoration: none;
 }
 
-#project-namay.active {
-    display: block; /* Display the background when it has the "active" class */
+#orchard-at-home{
+    background-image: url("/img/Proyects/Electronic-Products/Orchard/Contexto\ Orchard\ High.jpeg"); 
+    background-size: cover; /* Cover the entire viewport */
+    background-attachment: fixed; 
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
+
+#orchard-at-home p a{
+    color: var(--page-color, #FFF);
+    font-family: Documenta;
+    font-size: 8rem;
+    text-decoration: none;
+}
+
+#olive-ridley-turtle{
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+#video-turtle{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+#Turtle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* background: rgba(197, 236, 255, 0.7); /* Background color with transparency */
+    z-index: 1; /* Ensure the text is above the video */
+}
+
+#Turtle-text p{
+    font-family: Documenta;
+    font-size: 8rem;
+}
+
+#Turtle-text a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .text {
     text-align: center;
     color: black;
     width: 100%;
     height:100%;
-
 }
+
 .textbox{
     text-align: center;
     color: black;
 }
 
-section{;
+section{
 
 }
 nav{
@@ -107,14 +172,18 @@ footer {
     width: 100%;
     display: flex; 
     flex-direction: row;
-    justify-content:right;
-    text-align: right;
-    position:relative;
-    bottom: 0;
+    align-content: center;
+    justify-content:space-between; 
     margin: auto;
     background-color: black;
 }
 
-footer a{
+footer p{
+    color: white;
+    text-align: left;
+    margin: 1.7rem 0.5rem;
+}
+
+footer a img{
     padding: 0.5rem;
 }
