@@ -185,16 +185,21 @@ header{
     text-align: center;
     color: black;
 }
-
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 section{
-
+ width: 100%
 }
 nav{
-
+width: 100%
 }
 
 main{
-
+width: 100%
 }
 
 footer {
