@@ -191,9 +191,31 @@ header{
     text-align: center;
     justify-content: right;
 }
+
+input, textarea {
+
+background-color:white;
+border: 2px solid #ECEAEB;
+color:#BFD9CA;
+font-size: 20px;
+width: 80%;
+padding: 8px 16px 8px 16px;
+
+}
+
+label {
+display: block;
+margin: 16px 0px 16px 0px;
+}
+
+textarea{
+height: 320px;
+}
+
 section{
  width: 100%
 }
+
 nav{
 width: 100%
 }
