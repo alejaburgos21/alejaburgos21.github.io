@@ -195,10 +195,10 @@ header{
 input, textarea {
 
 background-color:white;
-border: 2px solid #ECEAEB;
+border: 2px solid #BFD9CA;
 color:#BFD9CA;
 font-size: 20px;
-width: 80%;
+width: 71%;
 padding: 8px 16px 8px 16px;
 
 }
@@ -206,12 +206,38 @@ padding: 8px 16px 8px 16px;
 label {
 display: block;
 margin: 16px 0px 16px 0px;
+font-family: Montserrat;
 }
 
 textarea{
 height: 320px;
 }
 
+button {
+    background-color:#BFD9CA;
+    border: none; 
+    font-size: 20px;
+    font-family: astrella;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+}
+
+input:focus, textarea:focus{ 
+     border: 2px solid #BFD9CA;
+}
+
+#contact-info {
+    background-color: #BFD9CA;
+    width: 74%;
+    margin: 0 1rem 4rem 12rem;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+#contact-info a{
+    font-family: Montserrat;
+    text-decoration: none;
+    color: black;
+}
 section{
  width: 100%
 }
@@ -243,3 +269,4 @@ footer p{
 footer a img{
     padding: 0.5rem;
 }
+
