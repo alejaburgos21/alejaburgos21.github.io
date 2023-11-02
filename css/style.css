@@ -150,13 +150,54 @@ header{
     color: #fff;
 }
 
+
+
+#Cosmozione{
+    background-image: url("/img/Proyects/Electronic-Products/Cosmozione/Cosmozione.png"); 
+    background-size: cover; /* Cover the entire viewport */
+    background-attachment: fixed; 
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#Cosmozione p a{
+    color: var(--page-color, #FFF);
+    font-family: Documenta;
+    font-size: 8rem;
+    text-decoration: none;
+}
+
+#BioCat{
+    background-image: url("/img/Proyects/Electronic-Products/BioCat/BioCat.png"); 
+    background-size: cover; /* Cover the entire viewport */
+    background-attachment: fixed; 
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#BioCat p a{
+    color: var(--page-color, #FFF);
+    font-family: Documenta;
+    font-size: 8rem;
+    text-decoration: none;
+}
+
+
 #project-Namay-project{
     background-image: url("/img/Proyects/Accessories/Namay/Bolso-Grande-contexto.jpeg"); 
     background-size: cover; /* Cover the entire viewport */
     background-attachment: fixed; 
-    min-height: 34rem;
+    min-height: 50rem;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 9.45rem;
+    justify-content: center;
 }
 
 #project-Namay-project p a{
@@ -165,15 +206,53 @@ header{
     font-family: Documenta;
     font-size: 8rem;
     text-decoration: none;
+    padding-top: 0rem;
 
 }
 
-#content1{
-    margin: 9.25rem auto;
-    display: grid;
-    grid-template-columns: repeat (12,1fr);
-    grid-column-gap:1.5rem;
-    grid-auto-flow: dense;
+.Content1 {
+    color: #000; /* main text paragraph */
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; /* 150% */
+    width: 40rem;
+    height: 20rem;
+    padding-left: 9rem;
+    padding-top: 4rem;
+}
+
+.imgN {
+    float: right;
+    width:90%;
+    margin-left: 4rem;
+    padding-right: 3rem;
+}
+.Content2 {
+    color: #000; /* main text paragraph */
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; /* 150% */
+    width: 30rem;
+    height: 20rem;
+    padding-left: 9rem;
+    padding-top: 4rem;
+}
+
+.imgO {
+    float: right;
+    width:50%;
+    margin-left: 4rem;
+    padding-right: 3rem;
+}
+.imgT {
+    float: right;
+    width:90%;
+    margin-left: 4rem;
+    padding-right: 3rem;
 }
 .text {
     text-align: center;
